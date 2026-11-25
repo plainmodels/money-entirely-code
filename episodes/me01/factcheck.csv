@@ -1,0 +1,99 @@
+id,beat,claim,evidence,source,status
+1,"b01,b02,b03","UK price level rose about 15x from 1209 to 1913 (704 years), 0.39% a year",x15.1,code/compute.py -> outputs/results.json (BoE millennium A1 CPI preferred measure),COMPUTED
+2,"b01,b02,b03","UK price level rose 111x from 1913 to 2025 (112 years), 4.3% a year",x111; BoE 2016 = 100.66 vs ONS 100.7: splice check,code/compute.py -> outputs/results.json (BoE 1913-2015 spliced to ONS D7BT 2016-2025),COMPUTED
+3,"b39,b53",Share of years with falling UK prices before 1900 (1210-1899): almost half,47.1% (325 of 690),code/compute.py; outputs/uk_price_level_1209_2025.csv,COMPUTED
+4,b39,Last year with falling UK prices in the annual series,"1933 (-2.1%); annual averages; ONS monthly 12-month rate briefly went negative in 2015, which a full-year claim does not contradict",code/compute.py,COMPUTED
+5,b39,Chapter 7 (moved from the hook): 'no one in Britain under ninety has seen prices fall over a full year',last fall 1933; viewer born 1934+ is at most 92; 'under ninety' is safe,code/compute.py,COMPUTED
+6,b24,"Falling-year share by century: 1700s 46/100, 1800s 50/100","46%, 50%",code/compute.py,COMPUTED
+7,b23,"1650 to 1913 UK prices rose 35% in total, about 0.11% a year",x1.35; script says 'about a tenth of a percent',code/compute.py,COMPUTED
+8,b25,UK prices rose 30% in the single year 1800; by 1813 about 70% above 1797,30.0%; x1.73 (1813/1797); 1813 level 1.833 / 1797 1.058,code/compute.py; outputs/uk_price_level_1209_2025.csv,COMPUTED
+9,b26,The 1913 UK price level was first reached in 1799; 1850 level below 1799,1799,code/compute.py,COMPUTED
+10,"b15,b17",UK price revolution: England x5.82 between 1511-15 and 1646-50 (1.31%/yr); Spain x3.47 (0.93%/yr),5.82; 3.47; Spain index from Hamilton via Munro,code/early.py -> outputs/early.json,COMPUTED
+11,b40,"UK fastest doubling in 800 years: 1971 to 1977, six years",6 years; first-crossing method on annual data,code/compute.py doublings_from_1209,COMPUTED
+12,b40,UK prices rose more than 3x in the 1970s,x3.34 (1970-1980),code/compute.py,COMPUTED
+13,"b27,b28",UK prices rose more than 2.5x 1913-1920 and fell more than a third 1920-1934,x2.64; -37.6%,code/compute.py + ad hoc check in session,COMPUTED
+14,b49,"UK: four of the five worst years since 1900 were in the world wars (1917, 1918, 1916, 1940; plus 1975)","25.2, 22.0, 18.1, 16.8; 1975 22.7",code/compute.py,COMPUTED
+15,b57,"US: $100 of 1913 (annual average CPI) = about $3,415 at October 2026 prices","$3,415 (x34.1); Oct 2026 index 337.511; 1913 avg 9.883",code/compute.py (FRED CPIAUCNS),COMPUTED
+16,b27,US price level doubled 1913-1920,x2.03,code/compute.py,COMPUTED
+17,"b27,b49","US worst year Dec-Dec: 1918 20.4%; four worst 1918, 1946, 1917, 1919",20.4%,code/compute.py,COMPUTED
+18,b28,US prices fell 15.8% in the 12 months to June 1921,-15.8%,code/compute.py,COMPUTED
+19,b28,US prices in 1933 about a third below 1920,x0.645,ad hoc check on outputs/us_cpi_yoy_monthly.csv annual averages,COMPUTED
+20,b39,US: last year with a December-to-December fall is 1954,1954; annual-average CPI did fall in 2009 (-0.4%); script uses Dec-Dec wording deliberately,code/compute.py,COMPUTED
+21,b40,US prices more than tripled Dec 1964 to Dec 1982; doubled 1970-1980,x3.13; x2.12,code/compute.py,COMPUTED
+22,b41,US 12-month inflation 12.3% Dec 1974; 14.8% Mar 1980,12.3; 14.8; Fed essay's 11.6% (Mar 1980) is a different measure; not used,code/compute.py,COMPUTED
+23,b51,US inflation 4.6% in Aug 1971; 13.3% in Dec 1979,4.6; 13.3,outputs/us_cpi_yoy_monthly.csv,COMPUTED
+24,b42,Effective fed funds monthly average peaked 19.1% in June 1981,19.10,code/compute.py (FRED FEDFUNDS),COMPUTED
+25,"b43,b44",US 12-month inflation never above 6.3% from 1983 to 2020; first above 7% again Dec 2021,6.29 (Oct 1990); 7.04 (Dec 2021),ad hoc check on outputs/us_cpi_yoy_monthly.csv,COMPUTED
+26,b45,US prices +17.8% Dec 2020-Dec 2023 vs +6.4% Dec 2016-Dec 2019,17.8; 6.4,code/compute.py,COMPUTED
+27,b47,US prices Oct 2026 29.6% above Dec 2020,29.6,code/compute.py,COMPUTED
+28,b53,At 2% a year prices double in about 35 years,35.0; ln2/ln1.02,code/compute.py,COMPUTED
+29,b10,Augustan denarius about 3.9 g silver per denarius; late antoninianus under 0.05 g per denarius of face value; over 98% less,3.9 g; <0.05 g; -98.7%; from verified inputs below; Roman pound taken as 327-329 g,code/early.py -> outputs/early.json,COMPUTED
+30,b19,Yuan prices roughly tripled 1346-55 at 12.7% a year,"x2.93; from Guan, Palma & Wu rate",code/early.py,COMPUTED
+31,b22,Paris +25% in Jan 1720 equals about 11 years at 2%,11.3 years,code/early.py,COMPUTED
+32,b13,"Seville silver imports rose about 15x, ~19 t to ~274 t a year (1546-50 to 1591-95)","18,698.8 kg -> 273,704.5 kg (x14.6); Munro summarising Hamilton",https://eh.net/book_reviews/american-treasure-and-the-price-revolution-in-spain-1501-1650/,VERIFIED
+33,"b14,b15",Spanish silver-price index x3.47 from 1511-15 to 1646-50,98.98 -> 343.36,https://eh.net/book_reviews/american-treasure-and-the-price-revolution-in-spain-1501-1650/,VERIFIED
+34,b16,Spanish prices began rising before significant American silver; silver vs population debated,1516-20; Munro: 'no such explanation can be purely monetary',https://eh.net/book_reviews/american-treasure-and-the-price-revolution-in-spain-1501-1650/,VERIFIED
+35,b12,Silver found at Potosí in 1545; shipped via Panama to Seville,1545; Britannica via search snippet (site blocks fetch),https://www.britannica.com/place/Potosi-Bolivia ; https://encyclopedia.com/history/news-wires-white-papers-and-books/potosi,VERIFIED
+36,b15,England debased its coins in the 1540s (Great Debasement),1544-51,https://www.royalmintmuseum.org.uk/journal/curators-corner/tudor-half-sovereign/,VERIFIED
+37,b07,Denarius introduced about 211 BC (Second Punic War),211 BC; search snippet,https://www.britannica.com/money/coin/Roman-coins-republic-and-empire,VERIFIED
+38,b07,"Augustan denarius 1/84 Roman pound, essentially pure silver",1/84; 3.9 g is derived from a 327-329 g pound,https://www.britannica.com/money/coin/Roman-coins-republic-and-empire ; https://warwick.ac.uk/fac/arts/classics/intranets/staff/butcher/butcher_ponting_complete.pdf,VERIFIED
+39,"b07,b10",Roman pound about 327-329 g,0.329 kg (Britannica); 327.4 g (lex.dk),https://www.britannica.com/science/libra-unit-of-weight ; https://lex.dk/libra,VERIFIED
+40,b08,Nero AD 64: denarius 1/96 pound; fineness ~93% (traditional) or ~80% (Butcher & Ponting lab),1/96; 93%; 80%; sources conflict; script gives both,https://www.britannica.com/money/coin/Early-imperial-mint-policy ; https://warwick.ac.uk/fac/arts/classics/intranets/staff/butcher/butcher_ponting_complete.pdf,VERIFIED
+41,b09,"Antoninianus introduced 215 by Caracalla, worth 2 denarii, weighed 1.5 denarii of fine metal",215,https://ric.mom.fr/en/info/sysmon,VERIFIED
+42,b09,Antoninianus silver fell from ~2.2 g to under 0.1 g in thirty years; almost entirely copper,2.2 g -> <0.1 g; exact start year of the 30 years not stated; script says 'middle of the third century',https://ric.mom.fr/en/info/sysmon,VERIFIED
+43,"b11,b51",Edict on Maximum Prices 301; penalty of death; impossible to enforce,"301; Britannica via snippet; enforcement from Hunt, Making of the West (Macmillan) via search summary",https://www.britannica.com/topic/Edictum-de-Maximis-Pretiis ; https://digfir-published.macmillanusa.com/hunt5e/hunt5e_ch07_34.html,VERIFIED
+44,b18,Jiaozi issued by private firms in Sichuan in the 990s; Song state took over issue in 1023,990s; 1023; von Glahn,https://www.hoover.org/sites/default/files/2025-02/The%20Rise%20and%20Demise%20of%20Paper%20Money%20in%20Imperial%20China.pdf,VERIFIED
+45,b19,"Khubilai made paper the sole legal tender, demonetising bronze coin and precious metals",,https://www.hoover.org/sites/default/files/2025-02/The%20Rise%20and%20Demise%20of%20Paper%20Money%20in%20Imperial%20China.pdf,VERIFIED
+46,b19,"Yuan prices: stability, mild inflation, then hyperinflation driven by fiscally motivated issue for military spending; 11.0%, 1.8%, 4.5%, 12.7% a year by period","12.7% 1346-55; Guan, Palma & Wu",https://hummedia.manchester.ac.uk/schools/soss/economics/discussionpapers/EDP-2207.pdf,VERIFIED
+47,b20,Ming paper notes ceased to function as viable currency by about 1425,1425; von Glahn 2019,https://www.cambridge.org/core/product/D3045EA55D654DCDCDCB3874E481A0B4/core-reader,VERIFIED
+48,-,Marco Polo described Yuan paper money,cut from script,,UNVERIFIED (cut from the narration)
+49,b21,John Law: General Bank May 1716; Royal Bank Dec 1718; restructured French public finances; collapse 1720; fled Dec 1720,1716; 1718; 1720; Velde,https://www.chicagofed.org/-/media/publications/working-papers/2003/wp2003-31-pdf.pdf,VERIFIED
+50,b22,Paris prices +25% in January 1720; money in circulation x2.6,25%; 2.6,https://www.chicagofed.org/-/media/publications/working-papers/2003/wp2003-31-pdf.pdf,VERIFIED
+51,"b25,b49","Bank of England suspended note convertibility into gold 1797, resumed 1821","1797-1821; LSE paper title 'The Bank Restriction Act and the regime shift to paper money, 1797-1821'; war with France",https://researchonline.lse.ac.uk/id/eprint/116388,VERIFIED
+52,"b41,b51","Nixon closed the gold window and froze wages and prices for 90 days, evening of 15 Aug 1971",15 Aug 1971; 90 days; convertibility was for foreign governments/central banks,https://www.federalreservehistory.org/essays/gold-convertibility-ends,VERIFIED
+53,b41,Arab oil embargo from October 1973; crude prices quadrupled,x4,https://www.federalreservehistory.org/essays/great-inflation ; https://history.state.gov/milestones/1969-1976/oil-embargo,VERIFIED
+54,b40,Great Inflation 1965-1982 (Fed history),1965-1982,https://www.federalreservehistory.org/essays/great-inflation,VERIFIED
+55,b42,Volcker became Fed chair 6 Aug 1979; Oct 1979 shift to targeting reserves,Aug 1979; 6 Oct 1979,https://www.federalreservehistory.org/people/paul-a-volcker ; https://www.federalreservehistory.org/essays/anti-inflation-measures,VERIFIED
+56,b42,Fed funds rate reached a record high of 20% in late 1980,20%,https://www.federalreservehistory.org/essays/anti-inflation-measures,VERIFIED
+57,b43,US unemployment 10.8% in Nov (and Dec) 1982,10.8%; also COMPUTED from FRED,https://data.bls.gov/timeseries/LNS14000000 ; FRED UNRATE (code/compute.py),VERIFIED
+58,b44,US CPI-U 9.1% in 12 months to June 2022,9.1%; also COMPUTED 9.06%,https://www.bls.gov/news.release/archives/cpi_07132022.htm,VERIFIED
+59,b44,UK CPI 11.1% in Oct 2022; ONS estimates last higher in Oct 1981,11.1%; also in data/ons_d7g7.csv; 1981 comparison is ONS modelled,https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2022,VERIFIED
+60,b44,Euro area HICP 10.6% in Oct 2022 (final),10.6%; flash was 10.7%; not used,https://ec.europa.eu/eurostat/documents/2995521/15265521/2-17112022-AP-EN.pdf,VERIFIED
+61,b46,"BoE: causes were the pandemic, then Russia's invasion of Ukraine, large impact on energy and food prices",,https://www.bankofengland.co.uk/explainers/current-interest-rate,VERIFIED
+62,b46,Role of demand / fiscal support debated,page summary only; script states only that it is debated,https://www.brookings.edu/articles/what-caused-the-u-s-pandemic-era-inflation/,VERIFIED
+63,b47,Fed target range near zero (0-0.25) to 5.25-5.5% (16 Mar 2022 first hike; 26 Jul 2023),5.25-5.5,https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm ; https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm,VERIFIED
+64,b53,Fed (PCE) and Bank of England (CPI) both target 2%,2%,https://www.federalreserve.gov/newsevents/pressreleases/monetary20120125c.htm ; https://www.bankofengland.co.uk/monetary-policy/inflation,VERIFIED
+65,b54,Early-century single-year spikes (e.g. +50% in 1225) probably reflect harvests,"stated in Limits as 'probably'; an inference, not a sourced claim",inference,UNVERIFIED
+66,b54,"UK long series is a splice of multiple studies (Schumpeter-Gilboy, Crafts & Mills, Feinstein, ONS)",,data/boe_millennium.xlsx sheet A47 header notes,VERIFIED
+67,b55,FRED CPI is missing October 2025,2025-10 blank,data/CPIAUCNS.csv,COMPUTED
+68,b33,Hanke-Krus definition: hyperinflation = price-level rise of at least 50% a month,50%; Cagan (1956),https://web.archive.org/web/2016/http://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8_1.pdf,VERIFIED
+69,"b30,b33","Germany peak Oct 1923: 29,500% a month, 20.9% a day, prices double every 3.70 days","29,500%; 20.9%; 3.70 days; recomputed in code/hyper.py: 20.9%/day, 3.65 days (30-day month)",https://web.archive.org/web/2016/http://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8_1.pdf,VERIFIED
+70,"b33,b34","Hungary peak Jul 1946: 4.19x10^16 % a month (41.9 quadrillion %), 207% a day, prices double every 15.0 hours","4.19e16 %; 207%; 15.0 h; MNB reproduces: 207.19%/day; recomputed 207.2%, 14.8 h",https://web.archive.org/web/2016/http://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8_1.pdf,VERIFIED
+71,b34,Hungary: prices doubled more than 48 times in July 1946; one peak day = 56 years at 2%,48.6; 56.7 years; from Hanke-Krus monthly rate,code/hyper.py -> outputs/hyper.json,COMPUTED
+72,"b33,b37","Zimbabwe peak mid-Nov 2008: 79.6 billion % a month, 98% a day, prices double every 24.7 hours (implied exchange rate from Old Mutual share price, Harare vs London)",7.96e10 %; 98.0%; 24.7 h; script says 'about every 25 hours'; IMF official 12-month CPI peak ~500 billion % Sep 2008 (cr09139) noted in Limits,https://web.archive.org/web/2016/http://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8_1.pdf,VERIFIED
+73,b29,Germany: hyperinflation under way in 1922 (Hanke-Krus start Aug 1922),Aug 1922,https://web.archive.org/web/2016/http://www.cato.org/sites/cato.org/files/pubs/pdf/workingpaper-8_1.pdf,VERIFIED
+74,b29,Jan 1923 French and Belgian troops occupied the Ruhr over disputed reparations arrears; passive resistance financed via printing press,Jan 1923; German-language source,https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722,VERIFIED
+75,b31,Nov 1923: one US dollar = 4.2 trillion marks,"4.2e12; '4,2 Billionen Mark' (German Billion = English trillion)",https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722,VERIFIED
+76,-,1914: about 4.2 marks per dollar,4.2; cut from script,Wikipedia only,UNVERIFIED (cut from the narration)
+77,b31,"A kilo of bread ~69,000 marks Aug 1923; over 200 billion marks Nov 1923","69,000; 200e9; Germany-wide, not Berlin-specific",https://www.dhm.de/lemo/bestand/objekt/verkauf-im-tausch-gegen-lebensmittel-1923.html,VERIFIED
+78,b31,Bread price rose nearly 3 million times Aug-Nov 1923,"x2,898,551",code/hyper.py,COMPUTED
+79,b32,Rentenmark issued from 15 Nov 1923; 1 Rentenmark = 1 trillion paper marks,10^12,https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html,VERIFIED
+80,b33,"Hungary: war destruction, Soviet military occupation, reparations; banknote issuance covering public expenditure",,https://www.mnb.hu/letoltes/mnb-70-years-of-the-forint-road-from-hyperinflation-to-price-stability.pdf,VERIFIED
+81,b35,Highest denomination banknote ever issued: Hungarian 100 quintillion (10^20) pengo ('million billion' / 100 million b.-pengo),10^20,https://www.guinnessworldrecords.com/world-records/highest-denomination-banknote,VERIFIED
+82,-,A 10^21 pengo note was printed but never circulated,10^21; cut from script,Bihari Muzeum (snippet) vs MNB banknote history (conflict),UNVERIFIED (cut from the narration)
+83,b35,"Forint replaced pengo 1 Aug 1946 at 1 forint = 4x10^29 pengo (400 octillion, short scale)","4e29; MNB writes '400,000 quadrillion' in long-scale naming",https://www.mnb.hu/letoltes/mnb-70-years-of-the-forint-road-from-hyperinflation-to-price-stability.pdf,VERIFIED
+84,-,Zimbabwe land seizures from 2000 disrupted commercial farming,cut from script; replaced by the IMF 40% GDP decline figure,IMF cr09139 mentions land invasions; no direct link to output found,UNVERIFIED (cut from the narration)
+85,b36,Zimbabwe hyperinflation fuelled by the RBZ's quasi-fiscal activities / monetisation,,https://www.imf.org/external/pubs/ft/scr/2009/cr09139.pdf,VERIFIED
+86,b37,Zimbabwe official CPI ended July 2008 at about 231 million percent (annual),"231 million %; exact 231,150,888.87% not verified, not used",https://mg.co.za/article/2008-10-09-zim-inflation-rockets-to-231million-percent ; Hanke-Krus WP8,VERIFIED
+87,b38,Zimbabwe central bank announced a 100 trillion dollar note in January 2009,Jan 2009; RNZ 17 Jan 2009 (search result); script says 'announced',https://www.rnz.co.nz/news/world/5242/zimbabwe-set-to-issue-100-trillion-dollar-note ; https://archive.gazettes.africa/archive/zw/2009/zw-government-gazette-dated-2009-01-15-no-5.pdf,VERIFIED
+88,"b38,b52",Zimbabwe moved to a multi-currency system in early 2009,early 2009,https://www.imf.org/external/np/sec/pn/2009/pn0953.htm,VERIFIED
+89,b39,"UK CPI 12-month rate was -0.1% in Apr, Sep, Oct 2015 (not a full calendar year)",-0.1%; supports Limits note on the hook,data/ons_d7g7.csv,COMPUTED
+90,b07,Second Punic War = the war with Hannibal,not a number,standard history,STANDARD
+91,b36,Zimbabwe GDP fell about 40% cumulatively 2000-07 (IMF),40%; '40 percent cumulative decline during the period of 2000-07',https://www.imf.org/external/pubs/ft/scr/2009/cr09139.pdf,VERIFIED
+92,b01,"Hook (Clock): prices 'crept up for 700 years, then rose 111 times'","= rows 1 and 2: x15.1 over 1209-1913 (704 years), x111 over 1913-2025",code/compute.py -> outputs/results.json,COMPUTED
+93,b15,"On-screen England line, 1500-1650, indexed to the 1511-15 average = 100; Spain shown only as Hamilton's two end points",BoE A1 annual values; Spain 98.98 -> 343.36,"moneyentirely/me01/build_data.py (series eng_1511_1650, spain_ends)",COMPUTED
+94,b26,On-screen: 1850 level below 1799; 1913 = 100 guide,"1799 104.3, 1850 85.6, 1913 100 (1913 = 100)",moneyentirely/me01/build_data.py (series uk_1780_1920),COMPUTED
+95,b28,"On-screen US and UK price levels 1913-1935, 1913 = 100 (US annual averages of CPI-U; UK BoE annual)",US 1920 202.8; UK 1920 264.4; US 1933/1920 x0.645; UK 1934/1920 x0.624,moneyentirely/me01/build_data.py (checks),COMPUTED
+96,b53,"On-screen dotted path: 2% a year from the 2025 UK level, labelled 'a target, not a forecast'","UK 2025 level x 1.02^(year-2025), 2025-2060",moneyentirely/me01/build_data.py (series uk_2pct_path),"COMPUTED (illustration, not a forecast)"
+97,"b42,b47","On-screen federal funds line is FRED's effective rate (monthly average), not the target range",FEDFUNDS monthly,youtube/format-pilots/entire-inflation/data/FEDFUNDS.csv,COMPUTED
+98,"b35,b38","Banknotes, the Edict tablet, the coins and the John Law card are drawn in code as diagrams (denomination as text), not reproductions",no photographs or scans,"moneyentirely/engine/engine.js (S.banknote, S.tablet, S.coin, S.nameplate)",STANDARD

@@ -1,0 +1,2361 @@
+{
+ "episode": "me01",
+ "title": "The ENTIRE History of Inflation in 16 Minutes",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "speed": 1.27,
+ "gap": 0.32,
+ "tail": 6.5,
+ "beats": [
+  {
+   "id": "b01",
+   "chapter": "",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "uk_level",
+      "col": "#1f6a48",
+      "w": 5
+     }
+    ],
+    "xr": [
+     1200,
+     2030
+    ],
+    "log": true,
+    "yr": [
+     0.05,
+     250
+    ],
+    "yt": [
+     0.1,
+     1,
+     10,
+     100
+    ],
+    "xt": [
+     1200,
+     1300,
+     1400,
+     1500,
+     1600,
+     1700,
+     1800,
+     1900,
+     2000
+    ],
+    "unit": "consumer prices, 2015 = 100, log scale",
+    "head": "England, then the UK · Bank of England and ONS",
+    "vl": [
+     {
+      "x": 1913,
+      "label": "1913",
+      "at": 0.36,
+      "ly": 0
+     }
+    ],
+    "tags": [
+     {
+      "text": "1209–1913: ×15",
+      "x": 1420,
+      "y": 3.2,
+      "at": 0.3,
+      "col": "#f1e9d3"
+     },
+     {
+      "text": "since 1913: ×111",
+      "x": 1890,
+      "y": 60,
+      "at": 0.5,
+      "align": "right",
+      "fill": "#b8392c"
+     }
+    ],
+    "draw": [
+     0.02,
+     0.5
+    ]
+   },
+   "text": "In the next 16 minutes you will see why prices crept up for 700 years, then rose 111 times, and what broke.",
+   "visual": "817 years of English and UK prices, log scale, drawing left to right; tags 'x15' and 'x111' appear on the line"
+  },
+  {
+   "id": "b02",
+   "chapter": "",
+   "scene": "title",
+   "p": {
+    "title": [
+     "The entire history",
+     "of inflation"
+    ],
+    "sub": "from Roman silver to the price shock of 2022",
+    "kicker": "Money, Entirely",
+    "chart": {
+     "series": [
+      {
+       "k": "uk_level",
+       "col": "#1f6a48",
+       "w": 5
+      }
+     ],
+     "xr": [
+      1200,
+      2030
+     ],
+     "log": true,
+     "yr": [
+      0.05,
+      250
+     ],
+     "yt": [
+      0.1,
+      1,
+      10,
+      100
+     ],
+     "xt": [
+      1200,
+      1300,
+      1400,
+      1500,
+      1600,
+      1700,
+      1800,
+      1900,
+      2000
+     ],
+     "unit": "consumer prices, 2015 = 100, log scale",
+     "head": "England, then the UK · Bank of England and ONS",
+     "vl": [
+      {
+       "x": 1913,
+       "label": "1913",
+       "at": 0.36,
+       "ly": 0
+      }
+     ],
+     "tags": [
+      {
+       "text": "1209–1913: ×15",
+       "x": 1420,
+       "y": 3.2,
+       "at": 0.3,
+       "col": "#f1e9d3"
+      },
+      {
+       "text": "since 1913: ×111",
+       "x": 1890,
+       "y": 60,
+       "at": 0.5,
+       "align": "right",
+       "fill": "#b8392c"
+      }
+     ]
+    },
+    "hold": 4.5
+   },
+   "text": "This is the entire history of inflation, from Roman silver coins to the price shock of 2022. The line on screen is the Bank of England's own record of English prices, going back to the year 1209. For seven centuries it barely climbs. Then it takes off.",
+   "visual": "title card over the 817-year line"
+  },
+  {
+   "id": "b03",
+   "chapter": "",
+   "scene": "hbars",
+   "p": {
+    "head": "English prices: how many times they multiplied · Bank of England, ONS",
+    "max": 125,
+    "x0": 700,
+    "lh": 150,
+    "rows": [
+     {
+      "label": "1209 to 1913",
+      "sub": "704 years",
+      "value": 15.09,
+      "txt": "×15",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1913 to 2025",
+      "sub": "112 years",
+      "value": 111.3,
+      "txt": "×111",
+      "col": "#b8392c"
+     }
+    ],
+    "foot": "annual averages; BoE millennium dataset to 2015, ONS CPI after"
+   },
+   "text": "Here is the scale of it. In the 704 years from 1209 to 1913, prices in England rose about fifteen times. In the 112 years since 1913, they have risen a hundred and eleven times.",
+   "visual": "two bars: x15 and x111"
+  },
+  {
+   "id": "b04",
+   "chapter": "",
+   "scene": "bullets",
+   "p": {
+    "head": "Five patterns, from Rome to 2022",
+    "items": [
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "blank": true
+   },
+   "text": "So why was money so steady for so long, and why did that end? By the end of this video you will see the five patterns that turn up again and again, from Rome to 2022.",
+   "visual": "five numbered slots, blank, filled in chapter 9"
+  },
+  {
+   "id": "b05",
+   "chapter": "In this video",
+   "scene": "bullets",
+   "p": {
+    "head": "In this video",
+    "lh": 76,
+    "px": 38,
+    "items": [
+     "Rome: less silver in every coin",
+     "The silver flood",
+     "Paper money",
+     "The long calm",
+     "War, and Weimar",
+     "The record breakers",
+     "The Great Inflation",
+     "The surge of 2021 to 2023",
+     "The patterns"
+    ]
+   },
+   "text": "We go in order: Rome, the silver flood, paper money, the long calm, the hyperinflations, the 1970s, the surge of 2021 to 2023, and then the patterns.",
+   "visual": "chapter list"
+  },
+  {
+   "id": "b06",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Inflation: prices rise in general.",
+     "Each unit of money buys less."
+    ],
+    "accent": [
+     1
+    ]
+   },
+   "text": "First, a definition. Inflation is a rise in prices in general: each unit of money buys less. For most of history, money was metal, so the simplest way for a government to make more money was to put less metal in each coin.",
+   "visual": "definition"
+  },
+  {
+   "id": "b07",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "coin",
+   "p": {
+    "coins": [
+     {
+      "label": "DENARIUS",
+      "sub": "AUGUSTUS",
+      "fine": 1,
+      "r": 250,
+      "lines": [
+       "1/84 of a Roman pound",
+       "about 3.9 g · essentially pure silver"
+      ]
+     }
+    ],
+    "head": "Rome's silver coin under Augustus"
+   },
+   "text": "Rome's silver coin, the denarius, first appeared around 211 BC, during the war with Hannibal. Under Augustus, the first emperor, it was essentially pure silver, one eighty-fourth of a Roman pound: about 3.9 grams.",
+   "visual": "a drawn denarius with its weight and fineness",
+   "say": "Rome's silver coin, the den-airy-us, first appeared around 211 BC, during the war with Hannibal. Under Augustus, the first emperor, it was essentially pure silver, one eighty-fourth of a Roman pound: about 3.9 grams."
+  },
+  {
+   "id": "b08",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "coin",
+   "p": {
+    "head": "Nero, AD 64: 1/96 of a pound, and less silver in it",
+    "coins": [
+     {
+      "label": "DENARIUS",
+      "sub": "NERO · AD 64",
+      "fine": 0.93,
+      "r": 210,
+      "lines": [
+       "93% silver",
+       "the traditional figure"
+      ]
+     },
+     {
+      "label": "DENARIUS",
+      "sub": "NERO · AD 64",
+      "fine": 0.8,
+      "r": 210,
+      "at": 0.45,
+      "lines": [
+       "about 80% silver",
+       "a laboratory study"
+      ],
+      "col": "#ef7a62"
+     }
+    ]
+   },
+   "text": "In AD 64, Nero made it lighter, one ninety-sixth of a pound, and put less silver in it. How much less is still argued. The traditional figure is a fineness of about 93 percent. A modern laboratory study says it fell to about 80.",
+   "visual": "two drawn coins with the two fineness figures",
+   "say": "In A.D. 64, Nero made it lighter, one ninety-sixth of a pound, and put less silver in it. How much less is still argued. The traditional figure is a fineness of about 93 percent. A modern laboratory study says it fell to about 80."
+  },
+  {
+   "id": "b09",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "vbars",
+   "p": {
+    "head": "Silver in one antoninianus, grams · RIC",
+    "max": 2.6,
+    "yt": [
+     0,
+     0.5,
+     1,
+     1.5,
+     2,
+     2.5
+    ],
+    "bars": [
+     {
+      "label": "when new (from 215)",
+      "value": 2.2,
+      "txt": "about 2.2 g",
+      "sub": "valued at 2 denarii"
+     },
+     {
+      "label": "about 30 years later",
+      "value": 0.1,
+      "txt": "under 0.1 g",
+      "col": "#b8392c",
+      "sub": "almost entirely copper"
+     }
+    ]
+   },
+   "text": "In 215, Caracalla launched a new coin, the antoninianus. It was valued at two denarii, but it held only about one and a half denarii's worth of silver. Then it shrank. Over about thirty years in the middle of the third century, its silver fell from roughly 2.2 grams to less than a tenth of a gram. It was almost entirely copper.",
+   "visual": "bars: silver per coin, shrinking",
+   "say": "In 215, Caracalla launched a new coin, the antoninianus. It was valued at two den-airy-eye, but it held only about one and a half den-airy-eye's worth of silver. Then it shrank. Over about thirty years in the middle of the third century, its silver fell from roughly 2.2 grams to less than a tenth of a gram. It was almost entirely copper."
+  },
+  {
+   "id": "b10",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "vbars",
+   "p": {
+    "head": "Silver per denarius of face value, grams · our arithmetic on published figures",
+    "max": 4.4,
+    "yt": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "bars": [
+     {
+      "label": "Augustus",
+      "value": 3.9,
+      "txt": "about 3.9 g"
+     },
+     {
+      "label": "the low point",
+      "value": 0.05,
+      "txt": "under 0.05 g",
+      "col": "#b8392c"
+     }
+    ],
+    "big": "−98%",
+    "bigSub": "less silver for the same money",
+    "bigAt": 0.55,
+    "foot": "a Roman pound taken as 327–329 g"
+   },
+   "text": "Here is our arithmetic on those published figures. Under Augustus, one denarius of face value carried about 3.9 grams of silver. By the low point, the same face value carried less than 0.05 grams. That is more than 98 percent less silver for the same money. Debasement let the state pay out more coins from the same silver.",
+   "visual": "3.9 g vs under 0.05 g; -98%",
+   "say": "Here is our arithmetic on those published figures. Under Augustus, one den-airy-us of face value carried about 3.9 grams of silver. By the low point, the same face value carried less than 0.05 grams. That is more than 98 percent less silver for the same money. Debasement let the state pay out more coins from the same silver."
+  },
+  {
+   "id": "b11",
+   "chapter": "1 · Rome: less silver in every coin",
+   "scene": "tablet",
+   "p": {
+    "title": "EDICT ON MAXIMUM PRICES",
+    "date": "AD 301 · the emperor Diocletian",
+    "rows": [
+     "Goods: a legal top price",
+     "Wages: a legal top price",
+     "Breaking it: death"
+    ],
+    "foot": "drawn as a diagram, not a copy of the inscription"
+   },
+   "text": "In 301, the emperor Diocletian issued the Edict on Maximum Prices. It set a legal top price for goods and wages across the empire, and the penalty for breaking it was death. It proved impossible to enforce across an empire that size.",
+   "visual": "a stylised tablet drawn in code",
+   "say": "In 301, the emperor Dye-oh-klee-shun issued the Edict on Maximum Prices. It set a legal top price for goods and wages across the empire, and the penalty for breaking it was death. It proved impossible to enforce across an empire that size."
+  },
+  {
+   "id": "b12",
+   "chapter": "2 · The silver flood",
+   "scene": "map",
+   "p": {
+    "set": "silver",
+    "route": true,
+    "head": "Potosí silver, found 1545, to Seville",
+    "ptsAt": [
+     0.05,
+     0.4,
+     0.75
+    ],
+    "left": [
+     "Panama"
+    ]
+   },
+   "text": "Next, a flood. In 1545, silver was found at Potosí, in what is now Bolivia. It went by ship to Panama, and from there across the Atlantic to Seville.",
+   "visual": "route Potosí, Panama, Seville",
+   "say": "Next, a flood. In 1545, silver was found at Potoh-see, in what is now Bolivia. It went by ship to Panama, and from there across the Atlantic to Seville."
+  },
+  {
+   "id": "b13",
+   "chapter": "2 · The silver flood",
+   "scene": "vbars",
+   "p": {
+    "head": "Silver arriving in Seville, tonnes a year · Hamilton, via Munro",
+    "max": 300,
+    "yt": [
+     0,
+     100,
+     200,
+     300
+    ],
+    "bars": [
+     {
+      "label": "1546 to 1550",
+      "value": 18.6988,
+      "txt": "about 19 t"
+     },
+     {
+      "label": "1591 to 1595",
+      "value": 273.7045,
+      "txt": "about 274 t",
+      "col": "#b8392c"
+     }
+    ],
+    "big": "×15",
+    "bigSub": "yearly averages",
+    "bigPos": [
+     760,
+     330
+    ],
+    "bigAlign": "center"
+   },
+   "text": "The economic historian Earl Hamilton counted the treasure arriving in Seville. From the late 1540s to the early 1590s, yearly silver imports rose about fifteen times, from around 19 tonnes a year to around 274 tonnes.",
+   "visual": "bars: yearly silver imports"
+  },
+  {
+   "id": "b14",
+   "chapter": "2 · The silver flood",
+   "scene": "vbars",
+   "p": {
+    "head": "Hamilton's index of Spanish prices, in silver",
+    "max": 400,
+    "yt": [
+     0,
+     100,
+     200,
+     300,
+     400
+    ],
+    "bars": [
+     {
+      "label": "1511 to 1515",
+      "value": 98.98,
+      "txt": "99"
+     },
+     {
+      "label": "1646 to 1650",
+      "value": 343.36,
+      "txt": "343",
+      "col": "#b8392c"
+     }
+    ],
+    "big": "×3.5",
+    "bigSub": "the price revolution",
+    "bigPos": [
+     760,
+     330
+    ],
+    "bigAlign": "center"
+   },
+   "text": "Prices followed. Hamilton's index of Spanish prices, measured in silver, rose about three and a half times between the 1510s and the 1640s. Historians call it the price revolution.",
+   "visual": "bars: Spanish index at the two ends"
+  },
+  {
+   "id": "b15",
+   "chapter": "2 · The silver flood",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "eng_1511_1650",
+      "col": "#1f6a48",
+      "w": 4.5,
+      "label": "England ×5.8",
+      "labelAt": 0.6,
+      "ldx": -10,
+      "ldy": -40,
+      "lalign": "right"
+     }
+    ],
+    "spain": {
+     "at": 0.55
+    },
+    "xr": [
+     1500,
+     1655
+    ],
+    "yr": [
+     0,
+     700
+    ],
+    "yt": [
+     0,
+     100,
+     200,
+     300,
+     400,
+     500,
+     600,
+     700
+    ],
+    "xt": [
+     1500,
+     1525,
+     1550,
+     1575,
+     1600,
+     1625,
+     1650
+    ],
+    "bands": [
+     {
+      "x0": 1544,
+      "x1": 1551,
+      "label": "Great Debasement",
+      "at": 0.7,
+      "ly": 10
+     }
+    ],
+    "unit": "prices, 1511–15 = 100",
+    "dots": [
+     {
+      "x": 1648,
+      "y": 346.8983633057183,
+      "label": [
+       "Spain ×3.5",
+       "Hamilton: end points only"
+      ],
+      "at": 0.6,
+      "dx": -20,
+      "dy": 50,
+      "align": "right"
+     }
+    ],
+    "head": "England (Bank of England, yearly) and Spain (Hamilton) on the same years"
+   },
+   "text": "We ran the same comparison on the Bank of England's English prices, over the same years. England's rose even more: nearly six times. Part of that is England's own doing. In the 1540s, England debased its own coins, in what is called the Great Debasement.",
+   "visual": "England and Spain from the same start"
+  },
+  {
+   "id": "b16",
+   "chapter": "2 · The silver flood",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Silver, or population?",
+     "Still debated."
+    ],
+    "accent": [
+     1
+    ],
+    "sub": "Spanish prices began rising before much American silver arrived"
+   },
+   "text": "Silver was not the only cause. Spanish prices had started rising before much American silver arrived, and historians still debate how much was silver and how much was a growing population.",
+   "visual": "statement"
+  },
+  {
+   "id": "b17",
+   "chapter": "2 · The silver flood",
+   "scene": "hbars",
+   "p": {
+    "head": "The price revolution, spread over 135 years (1511–15 to 1646–50)",
+    "max": 2.3,
+    "x0": 760,
+    "lh": 130,
+    "rows": [
+     {
+      "label": "Spain",
+      "value": 0.93,
+      "txt": "0.9% a year"
+     },
+     {
+      "label": "England",
+      "value": 1.31,
+      "txt": "1.3% a year"
+     },
+     {
+      "label": "today's central-bank target",
+      "value": 2,
+      "txt": "2% a year",
+      "col": "#b8392c"
+     }
+    ]
+   },
+   "text": "Now spread the rise out. Over those 135 years, this revolution ran at under one percent a year in Spain, and about 1.3 percent in England. Today's central banks aim for two. By a modern standard, the price revolution was low inflation. It only looked like a revolution because, for centuries before it, prices had hardly moved at all.",
+   "visual": "bars: 0.9%, 1.3%, 2%"
+  },
+  {
+   "id": "b18",
+   "chapter": "3 · Paper money",
+   "scene": "map",
+   "p": {
+    "set": "sichuan",
+    "head": "Sichuan, western China",
+    "note": [
+     "jiaozi: paper notes",
+     "private firms, 990s",
+     "issued by the Song state from 1023"
+    ],
+    "noteAt": 0.35,
+    "noteX": 1140,
+    "noteY": 640
+   },
+   "text": "The third big change was paper. In Sichuan, in western China, private firms began issuing paper notes called jiaozi in the 990s. In 1023, the Song state took over the issue itself. Paper has one property that matters here: there is no metal to run out of.",
+   "visual": "map of Sichuan with a note card",
+   "say": "The third big change was paper. In Sitch-wahn, in western China, private firms began issuing paper notes called jow-dzuh in the 990s. In 1023, the Song state took over the issue itself. Paper has one property that matters here: there is no metal to run out of."
+  },
+  {
+   "id": "b19",
+   "chapter": "3 · Paper money",
+   "scene": "counter",
+   "p": {
+    "head": "Yuan China, 1346 to 1355 · Guan, Palma & Wu",
+    "tiles": [
+     {
+      "big": "12.7%",
+      "small": "a year",
+      "label": "prices rose"
+     },
+     {
+      "big": "×2.9",
+      "small": "in nine years",
+      "label": "close to tripling",
+      "col": "#b8392c"
+     }
+    ],
+    "foot": [
+     "stability, then mild inflation, then hyperinflation",
+     "money issued to pay for war"
+    ],
+    "footPx": 44
+   },
+   "text": "Under the Mongol Yuan dynasty, Khubilai Khan made paper the only legal tender, and took bronze coins and precious metals out of use. A recent study of Yuan prices found the pattern this video keeps finding: stability, then mild inflation, then hyperinflation, driven by money issued to pay for war. Between 1346 and 1355, prices rose 12.7 percent a year. That is close to tripling in nine years.",
+   "visual": "Yuan inflation figures",
+   "say": "Under the Mongol Yoo-ahn dynasty, Koo-bee-lie Khan made paper the only legal tender, and took bronze coins and precious metals out of use. A recent study of Yoo-ahn prices found the pattern this video keeps finding: stability, then mild inflation, then hyperinflation, driven by money issued to pay for war. Between 1346 and 1355, prices rose 12.7 percent a year. That is close to tripling in nine years."
+  },
+  {
+   "id": "b20",
+   "chapter": "3 · Paper money",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Ming paper notes:",
+     "no longer working as money",
+     "by about 1425"
+    ],
+    "accent": [
+     2
+    ],
+    "sub": "von Glahn (2019)"
+   },
+   "text": "The next dynasty, the Ming, kept paper money at first. By about 1425, its notes had stopped working as currency.",
+   "visual": "statement"
+  },
+  {
+   "id": "b21",
+   "chapter": "3 · Paper money",
+   "scene": "nameplate",
+   "p": {
+    "name": "John Law",
+    "sub": "A SCOTSMAN IN PARIS",
+    "events": [
+     [
+      "1716",
+      "the General Bank, Paris"
+     ],
+     [
+      "1718",
+      "it becomes the Royal Bank"
+     ],
+     [
+      "1720",
+      "the system collapses"
+     ]
+    ],
+    "foot": "an engraved name card, drawn; no portrait"
+   },
+   "text": "Europe tried paper three centuries later. In 1716, a Scotsman called John Law set up the General Bank in Paris. In December 1718 it became the Royal Bank. Law used the bank, and a trading company later known as the Mississippi Company, to restructure France's public debts.",
+   "visual": "an engraved name card drawn in code; timeline 1716, 1718, 1720"
+  },
+  {
+   "id": "b22",
+   "chapter": "3 · Paper money",
+   "scene": "counter",
+   "p": {
+    "head": "France, 1720 · Velde, Chicago Fed",
+    "tiles": [
+     {
+      "big": "×2.6",
+      "small": "money in circulation",
+      "label": "under Law"
+     },
+     {
+      "big": "+25%",
+      "small": "Paris prices, January 1720",
+      "label": "one month"
+     },
+     {
+      "big": "11 years",
+      "small": "of 2% inflation",
+      "label": "the same rise",
+      "col": "#b8392c"
+     }
+    ]
+   },
+   "text": "According to François Velde, an economist at the Chicago Fed, the money in circulation multiplied by 2.6. In January 1720 alone, Paris prices rose 25 percent. At a two percent target, that is eleven years of inflation in one month. By the end of 1720 the system had collapsed, and Law had fled France.",
+   "visual": "one month of Paris prices vs eleven years at 2%",
+   "say": "According to Fran-swah Vel-duh, an economist at the Chicago Fed, the money in circulation multiplied by 2.6. In January 1720 alone, Paris prices rose 25 percent. At a two percent target, that is eleven years of inflation in one month. By the end of 1720 the system had collapsed, and Law had fled France."
+  },
+  {
+   "id": "b23",
+   "chapter": "4 · The long calm",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "uk_1650_1913",
+      "col": "#1f6a48",
+      "w": 4.5
+     }
+    ],
+    "xr": [
+     1650,
+     1913
+    ],
+    "yr": [
+     0,
+     180
+    ],
+    "yt": [
+     0,
+     50,
+     100,
+     150
+    ],
+    "xt": [
+     1650,
+     1700,
+     1750,
+     1800,
+     1850,
+     1900
+    ],
+    "unit": "English prices, 1913 = 100",
+    "head": "The long calm · Bank of England",
+    "tags": [
+     {
+      "text": "+35% in 263 years",
+      "ax": 330,
+      "ay": 270,
+      "at": 0.55
+     },
+     {
+      "text": "about 0.1% a year",
+      "ax": 330,
+      "ay": 360,
+      "at": 0.7,
+      "fill": "#1f6a48"
+     }
+    ]
+   },
+   "text": "After the price revolution, English prices almost stopped rising. From 1650 to 1913, they went up just 35 percent in total. That is about a tenth of a percent a year, for two and a half centuries.",
+   "visual": "UK price level 1650 to 1913"
+  },
+  {
+   "id": "b24",
+   "chapter": "4 · The long calm",
+   "scene": "vbars",
+   "p": {
+    "head": "Share of years with falling prices, by century · England and UK",
+    "max": 60,
+    "yt": [
+     0,
+     20,
+     40,
+     60
+    ],
+    "yf": "pct",
+    "lpx": 30,
+    "vpx": 34,
+    "step": 0.07,
+    "bars": [
+     {
+      "label": "1200s",
+      "value": 52,
+      "txt": "52%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1300s",
+      "value": 49,
+      "txt": "49%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1400s",
+      "value": 48,
+      "txt": "48%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1500s",
+      "value": 42,
+      "txt": "42%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1600s",
+      "value": 43,
+      "txt": "43%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1700s",
+      "value": 46,
+      "txt": "46%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1800s",
+      "value": 50,
+      "txt": "50%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1900s",
+      "value": 15,
+      "txt": "15%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "2000s",
+      "value": 0,
+      "txt": "0%",
+      "col": "#b8392c"
+     }
+    ],
+    "foot": "1200s: 1210 to 1299 · 2000s: 2000 to 2025"
+   },
+   "text": "And prices did not only go up. In the 1700s, prices fell in 46 years out of a hundred. In the 1800s, they fell in exactly half. A falling year was as normal as a rising one.",
+   "visual": "bars: share of falling years by century"
+  },
+  {
+   "id": "b25",
+   "chapter": "4 · The long calm",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "uk_1780_1860",
+      "col": "#1f6a48",
+      "w": 4.5
+     }
+    ],
+    "xr": [
+     1780,
+     1860
+    ],
+    "yr": [
+     60,
+     200
+    ],
+    "yt": [
+     75,
+     100,
+     125,
+     150,
+     175,
+     200
+    ],
+    "xt": [
+     1780,
+     1800,
+     1820,
+     1840,
+     1860
+    ],
+    "bands": [
+     {
+      "x0": 1797,
+      "x1": 1821,
+      "label": "notes not exchangeable for gold",
+      "at": 0.15
+     }
+    ],
+    "unit": "English prices, 1797 = 100",
+    "dots": [
+     {
+      "x": 1800,
+      "label": [
+       "1800: +30% in one year"
+      ],
+      "at": 0.45,
+      "dx": -18,
+      "dy": -20,
+      "align": "right"
+     },
+     {
+      "x": 1813,
+      "label": [
+       "1813: 73% above 1797"
+      ],
+      "at": 0.7,
+      "dx": 18,
+      "dy": -22
+     }
+    ],
+    "head": "War with France, 1797 to 1821 · Bank of England"
+   },
+   "text": "The spikes came in wartime. In 1797, at war with France, the Bank of England stopped exchanging its notes for gold. It did not start again until 1821. In the data, prices rose 30 percent in the single year 1800, and by 1813 they were about 70 percent higher than in 1797.",
+   "visual": "zoom 1780 to 1860; band 1797 to 1821"
+  },
+  {
+   "id": "b26",
+   "chapter": "4 · The long calm",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "uk_1780_1920",
+      "col": "#1f6a48",
+      "w": 4.5
+     }
+    ],
+    "xr": [
+     1780,
+     1920
+    ],
+    "yr": [
+     60,
+     160
+    ],
+    "yt": [
+     60,
+     80,
+     100,
+     120,
+     140,
+     160
+    ],
+    "xt": [
+     1780,
+     1800,
+     1820,
+     1840,
+     1860,
+     1880,
+     1900,
+     1920
+    ],
+    "hl": [
+     {
+      "y": 100,
+      "col": "#b8392c",
+      "at": 0.3
+     }
+    ],
+    "unit": "English prices, 1913 = 100",
+    "draw": [
+     0.02,
+     0.4
+    ],
+    "dots": [
+     {
+      "x": 1799,
+      "label": "1799",
+      "at": 0.55,
+      "col": "#b8392c",
+      "dx": -16,
+      "dy": -16,
+      "align": "right"
+     },
+     {
+      "x": 1913,
+      "label": "1913",
+      "at": 0.65,
+      "col": "#b8392c",
+      "dx": -16,
+      "dy": -22,
+      "align": "right"
+     },
+     {
+      "x": 1850,
+      "label": [
+       "1850: below 1799"
+      ],
+      "at": 0.4,
+      "col": "#285c8c",
+      "dx": 0,
+      "dy": 46,
+      "align": "center"
+     }
+    ],
+    "head": "The 1913 price level was first reached in 1799"
+   },
+   "text": "Then the war ended, gold came back, and prices drifted down again. By 1850 they were below where they had been in 1799. In fact, a shopper in 1913 was paying about what a shopper in 1799 had paid. The price level of 1913 had first been reached more than a century earlier.",
+   "visual": "a horizontal guide at the 1913 level, touching 1799"
+  },
+  {
+   "id": "b27",
+   "chapter": "5 · War, and Weimar",
+   "scene": "hbars",
+   "p": {
+    "head": "Worst years on the US record, December to December · CPI-U",
+    "max": 22,
+    "x0": 520,
+    "lh": 110,
+    "rows": [
+     {
+      "label": "1918",
+      "value": 20.4,
+      "txt": "20.4%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "1946",
+      "value": 18.1,
+      "txt": "18.1%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1917",
+      "value": 18.1,
+      "txt": "18.1%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1919",
+      "value": 14.5,
+      "txt": "14.5%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "1979",
+      "value": 13.3,
+      "txt": "13.3%",
+      "col": "#1f6a48"
+     }
+    ]
+   },
+   "text": "The First World War broke the calm everywhere at once. In America, the price level doubled between 1913 and 1920: seven years. The worst single year on the US record, December to December, is 1918, at 20.4 percent. In Britain, prices rose more than two and a half times between 1913 and 1920.",
+   "visual": "bars: the five worst US years"
+  },
+  {
+   "id": "b28",
+   "chapter": "5 · War, and Weimar",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "us_1913_100",
+      "col": "#285c8c",
+      "w": 5,
+      "label": "US",
+      "labelAt": 0.5
+     },
+     {
+      "k": "uk_1913_100",
+      "col": "#1f6a48",
+      "w": 5,
+      "label": "UK",
+      "labelAt": 0.5
+     }
+    ],
+    "xr": [
+     1913,
+     1936
+    ],
+    "yr": [
+     50,
+     290
+    ],
+    "yt": [
+     50,
+     100,
+     150,
+     200,
+     250
+    ],
+    "xt": [
+     1915,
+     1920,
+     1925,
+     1930,
+     1935
+    ],
+    "hl": [
+     {
+      "y": 100,
+      "col": "#8d927f"
+     }
+    ],
+    "unit": "prices, 1913 = 100",
+    "dots": [
+     {
+      "x": 1921.46,
+      "y": null,
+      "k": "us_1913_100",
+      "label": "US, 12 months to June 1921: -15.8%",
+      "at": 0.55,
+      "col": "#285c8c",
+      "dx": 18,
+      "dy": 95
+     }
+    ],
+    "head": "Up in war, down in peace · CPI-U and Bank of England, annual"
+   },
+   "text": "And then, in both countries, prices fell back. In the twelve months to June 1921, US prices fell 15.8 percent. By 1933, American prices were about a third below their 1920 level, and British prices fell by more than a third between 1920 and 1934. The old pattern, up in war and down in peace, still held. Germany was different.",
+   "visual": "US and UK price levels, 1913 = 100"
+  },
+  {
+   "id": "b29",
+   "chapter": "5 · War, and Weimar",
+   "scene": "map",
+   "p": {
+    "set": "ruhr",
+    "head": "January 1923: French and Belgian troops occupy the Ruhr",
+    "regionAt": 0.15,
+    "note": [
+     "Passive resistance",
+     "paid for with the",
+     "printing press"
+    ],
+    "noteAt": 0.6,
+    "noteX": 1150,
+    "noteY": 640
+   },
+   "text": "Germany's hyperinflation was already under way in 1922. Then, in January 1923, French and Belgian troops occupied the Ruhr, in a dispute over unpaid reparations. The German government called on workers there to resist passively, and it paid for that resistance with the printing press.",
+   "visual": "map: the Ruhr",
+   "say": "Germany's hyperinflation was already under way in 1922. Then, in January 1923, French and Belgian troops occupied the Roo-er, in a dispute over unpaid reparations. The German government called on workers there to resist passively, and it paid for that resistance with the printing press."
+  },
+  {
+   "id": "b30",
+   "chapter": "5 · War, and Weimar",
+   "scene": "counter",
+   "p": {
+    "head": "Germany, October 1923 · Hanke & Krus",
+    "tiles": [
+     {
+      "big": "29,500%",
+      "small": "in one month",
+      "label": "prices rose"
+     },
+     {
+      "big": "20.9%",
+      "small": "a day",
+      "label": "about"
+     },
+     {
+      "big": "3.7 days",
+      "small": "for prices to double",
+      "label": "doubling",
+      "col": "#b8392c"
+     }
+    ]
+   },
+   "text": "In October 1923, by the figures of the economists Steve Hanke and Nicholas Krus, German prices rose 29,500 percent in a single month. That is about 21 percent a day. Prices doubled every three point seven days.",
+   "visual": "counter",
+   "say": "In October 1923, by the figures of the economists Steve Hank-ee and Nicholas Kroos, German prices rose 29,500 percent in a single month. That is about 21 percent a day. Prices doubled every three point seven days."
+  },
+  {
+   "id": "b31",
+   "chapter": "5 · War, and Weimar",
+   "scene": "vbars",
+   "p": {
+    "head": "A kilo of bread in Germany, marks (log scale) · Deutsches Historisches Museum",
+    "log": true,
+    "min": 1000.0,
+    "max": 1000000000000.0,
+    "yt": [
+     1000.0,
+     1000000.0,
+     1000000000.0,
+     1000000000000.0
+    ],
+    "ytl": [
+     "1 thousand",
+     "1 million",
+     "1 billion",
+     "1 trillion"
+    ],
+    "bars": [
+     {
+      "label": "August 1923",
+      "value": 69000,
+      "txt": "69,000 marks"
+     },
+     {
+      "label": "November 1923",
+      "value": 200000000000,
+      "txt": "over 200 billion marks",
+      "col": "#b8392c"
+     }
+    ],
+    "big": "×2.9 million",
+    "bigSub": "in three months",
+    "bigPos": [
+     760,
+     330
+    ],
+    "bigAlign": "center",
+    "foot": "November 1923: one US dollar = 4.2 trillion marks (Deutscher Bundestag)"
+   },
+   "text": "The German parliament's own history gives the end point: in November 1923, one US dollar cost 4.2 trillion marks. Germany's history museum gives the price of bread: about 69,000 marks for a kilo in August 1923, and over 200 billion marks in November. That is nearly three million times as much, in three months.",
+   "visual": "bread, log scale"
+  },
+  {
+   "id": "b32",
+   "chapter": "5 · War, and Weimar",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "1 Rentenmark =",
+     "1,000,000,000,000 paper marks"
+    ],
+    "accent": [
+     1
+    ],
+    "sub": "November 1923"
+   },
+   "text": "In November 1923 a new currency, the Rentenmark, was issued. One Rentenmark was set equal to one trillion of the old paper marks.",
+   "visual": "statement",
+   "say": "In November 1923 a new currency, the Renten-mark, was issued. One Renten-mark was set equal to one trillion of the old paper marks."
+  },
+  {
+   "id": "b33",
+   "chapter": "6 · The record breakers",
+   "scene": "table",
+   "p": {
+    "head": "Peak months · Hanke & Krus, World Hyperinflations (2012)",
+    "hdr": [
+     "",
+     "peak month",
+     "prices rose",
+     "a day",
+     "doubling"
+    ],
+    "cols": [
+     0,
+     600,
+     1060,
+     1280,
+     1460
+    ],
+    "rows": [
+     [
+      "Hungary",
+      "Jul 1946",
+      "41.9 quadrillion %",
+      "207%",
+      "15.0 hours"
+     ],
+     [
+      "Zimbabwe",
+      "mid-Nov 2008",
+      "79.6 billion %",
+      "98.0%",
+      "24.7 hours"
+     ],
+     [
+      "Germany",
+      "Oct 1923",
+      "29,500%",
+      "20.9%",
+      "3.70 days"
+     ]
+    ],
+    "hl": [
+     0
+    ],
+    "hlAt": 0.45,
+    "lh": 110,
+    "step": 0.12,
+    "foot": "their definition of hyperinflation: prices rising at least 50% in a month"
+   },
+   "text": "Germany is the famous case, not the worst. Hanke and Krus count a hyperinflation when prices rise at least 50 percent in a month, and on their list the record belongs to Hungary, just after the Second World War. Hungary's central bank describes a country wrecked by war, under Soviet military occupation, owing reparations, and paying its public spending with new banknotes.",
+   "visual": "Hanke-Krus rows",
+   "say": "Germany is the famous case, not the worst. Hank-ee and Kroos count a hyperinflation when prices rise at least 50 percent in a month, and on their list the record belongs to Hungary, just after the Second World War. Hungary's central bank describes a country wrecked by war, under Soviet military occupation, owing reparations, and paying its public spending with new banknotes."
+  },
+  {
+   "id": "b34",
+   "chapter": "6 · The record breakers",
+   "scene": "counter",
+   "p": {
+    "head": "Hungary, July 1946 · Hanke & Krus",
+    "tiles": [
+     {
+      "big": "41.9 quadrillion %",
+      "small": "in one month",
+      "label": "prices rose",
+      "px": 66
+     },
+     {
+      "big": "207%",
+      "small": "a day",
+      "label": "about"
+     },
+     {
+      "big": "15 hours",
+      "small": "for prices to double",
+      "label": "doubling"
+     }
+    ],
+    "foot": [
+     "more than 48 doublings in one month",
+     "one peak day = more than 56 years at 2%"
+    ],
+    "footAt": 0.55
+   },
+   "text": "In July 1946, Hungarian prices rose 41.9 quadrillion percent in one month. That is about 207 percent a day. Prices doubled every fifteen hours. In our own arithmetic on their figure, a price that month doubled more than 48 times. And a single day at the peak was more inflation than 56 years at two percent.",
+   "visual": "counter, then the 2% comparison"
+  },
+  {
+   "id": "b35",
+   "chapter": "6 · The record breakers",
+   "scene": "banknote",
+   "p": {
+    "top": "Hungary · 1946",
+    "denom": "100,000,000,000,000,000,000",
+    "words": "one hundred quintillion pengő",
+    "base": "#dccfa6",
+    "ink": "#5a3d6e",
+    "lines": [
+     "1 August 1946: 1 forint = 400 octillion pengő",
+     "400,000,000,000,000,000,000,000,000,000"
+    ],
+    "monoLine": 1,
+    "lineAt": [
+     0.5,
+     0.7
+    ]
+   },
+   "text": "Hungary issued the highest denomination banknote in history: one hundred quintillion pengő, a one followed by twenty zeros. On 1 August 1946 a new currency, the forint, replaced it, at one forint for four hundred octillion pengő. That is a four followed by twenty-nine zeros.",
+   "visual": "a stylised 100 quintillion pengő note drawn in code; 29 zeros written out",
+   "say": "Hungary issued the highest denomination banknote in history: one hundred quintillion pen-go, a one followed by twenty zeros. On 1 August 1946 a new currency, the for-int, replaced it, at one for-int for four hundred octillion pen-go. That is a four followed by twenty-nine zeros."
+  },
+  {
+   "id": "b36",
+   "chapter": "6 · The record breakers",
+   "scene": "map",
+   "p": {
+    "set": "zimbabwe",
+    "head": "Zimbabwe",
+    "note": [
+     "IMF",
+     "economy shrank about 40%, 2000 to 2007",
+     "central bank's quasi-fiscal activities:",
+     "spending paid for by creating money"
+    ],
+    "noteAt": 0.45,
+    "noteX": 1130,
+    "noteY": 600
+   },
+   "text": "Another case is recent: Zimbabwe. By the IMF's count, its economy shrank by about 40 percent between 2000 and 2007. The IMF says the hyperinflation was fuelled by the central bank's quasi-fiscal activities, in plain words, government-style spending paid for by creating money.",
+   "visual": "map: Zimbabwe; IMF note card"
+  },
+  {
+   "id": "b37",
+   "chapter": "6 · The record breakers",
+   "scene": "counter",
+   "p": {
+    "head": "Zimbabwe, 2008",
+    "tiles": [
+     {
+      "big": "231 million %",
+      "small": "a year, July 2008",
+      "label": "last official figure",
+      "px": 70
+     },
+     {
+      "big": "79.6 billion %",
+      "small": "in one month, mid-Nov 2008",
+      "label": "Hanke & Krus estimate",
+      "px": 70,
+      "col": "#b8392c"
+     },
+     {
+      "big": "about 25 hours",
+      "small": "for prices to double",
+      "label": "doubling",
+      "px": 70
+     }
+    ],
+    "foot": "estimated from a share price traded in Harare and in London",
+    "footPx": 40
+   },
+   "text": "Zimbabwe's statistics office stopped publishing inflation after July 2008, when the annual rate was about 231 million percent. Hanke and Krus estimated the rest from the price of a company's shares traded in both Harare and London. By their figures, the peak came in mid-November 2008: 79.6 billion percent in a month, with prices doubling about every 25 hours.",
+   "visual": "official vs estimated",
+   "say": "Zimbabwe's statistics office stopped publishing inflation after July 2008, when the annual rate was about 231 million percent. Hank-ee and Kroos estimated the rest from the price of a company's shares traded in both Ha-rah-ray and London. By their figures, the peak came in mid-November 2008: 79.6 billion percent in a month, with prices doubling about every 25 hours."
+  },
+  {
+   "id": "b38",
+   "chapter": "6 · The record breakers",
+   "scene": "banknote",
+   "p": {
+    "top": "Zimbabwe · 2009",
+    "denom": "100,000,000,000,000",
+    "words": "one hundred trillion dollars",
+    "base": "#cfdcc4",
+    "ink": "#2f5a41",
+    "lines": [
+     "announced by the central bank, January 2009",
+     "then a multi-currency system, early 2009"
+    ],
+    "lineAt": [
+     0.15,
+     0.55
+    ]
+   },
+   "text": "In January 2009, the central bank announced a 100 trillion dollar note. In early 2009, the government moved to a system that used foreign currencies instead of its own.",
+   "visual": "a stylised 100 trillion dollar note drawn in code"
+  },
+  {
+   "id": "b39",
+   "chapter": "7 · The Great Inflation",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "us_yoy",
+      "col": "#285c8c",
+      "w": 3
+     }
+    ],
+    "neg": true,
+    "xr": [
+     1914,
+     2027
+    ],
+    "yr": [
+     -20,
+     26
+    ],
+    "yt": [
+     -15,
+     -10,
+     -5,
+     0,
+     5,
+     10,
+     15,
+     20,
+     25
+    ],
+    "yf": "pct",
+    "xt": [
+     1920,
+     1940,
+     1960,
+     1980,
+     2000,
+     2020
+    ],
+    "unit": "US prices, change over 12 months",
+    "draw": [
+     0.02,
+     0.4
+    ],
+    "vl": [
+     {
+      "x": 1954.96,
+      "label": [
+       "1954:",
+       "last fall, Dec to Dec"
+      ],
+      "at": 0.3,
+      "col": "#b8392c",
+      "ly": 520
+     }
+    ],
+    "tags": [
+     {
+      "text": "UK: last full-year fall 1933",
+      "ax": 1780,
+      "ay": 300,
+      "at": 0.62,
+      "align": "right",
+      "fill": "#1f6a48"
+     }
+    ],
+    "head": "Prices stopped falling · CPI-U; Bank of England"
+   },
+   "text": "Within ten years of the Second World War, something quieter but more lasting happened. Prices stopped falling. In the US record, the last time prices were lower one December than the December before was 1954. In Britain's yearly series, the last fall was in 1933, so no one in Britain under ninety has seen prices fall over a full year. Before 1900, almost half of all years did.",
+   "visual": "US 12-month inflation 1914 to 2026; falls shaded; the dips end in the 1950s"
+  },
+  {
+   "id": "b40",
+   "chapter": "7 · The Great Inflation",
+   "scene": "table",
+   "p": {
+    "head": "English and UK prices: each doubling since 1209 · Bank of England, ONS",
+    "hdr": [
+     "prices",
+     "reached in",
+     "years it took"
+    ],
+    "cols": [
+     0,
+     880,
+     1380
+    ],
+    "rows": [
+     [
+      "×2",
+      "1272",
+      "63"
+     ],
+     [
+      "×4",
+      "1551",
+      "279"
+     ],
+     [
+      "×8",
+      "1597",
+      "46"
+     ],
+     [
+      "×16",
+      "1800",
+      "203"
+     ],
+     [
+      "×32",
+      "1919",
+      "119"
+     ],
+     [
+      "×64",
+      "1953",
+      "34"
+     ],
+     [
+      "×128",
+      "1971",
+      "18"
+     ],
+     [
+      "×256",
+      "1977",
+      "6"
+     ],
+     [
+      "×512",
+      "1984",
+      "7"
+     ],
+     [
+      "×1,024",
+      "2008",
+      "24"
+     ]
+    ],
+    "hl": [
+     7
+    ],
+    "hlAt": 0.72,
+    "lh": 60,
+    "px": 32,
+    "step": 0.03
+   },
+   "text": "Then came what the Federal Reserve's own history calls the Great Inflation, lasting from 1965 to 1982. Between December 1964 and December 1982, US prices more than tripled. In the 1970s alone they doubled. British prices rose more than three times in the same decade. In our UK series, the fastest doubling in eight hundred years came between 1971 and 1977: six years.",
+   "visual": "UK doublings since 1209; 1971 to 1977 highlighted"
+  },
+  {
+   "id": "b41",
+   "chapter": "7 · The Great Inflation",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "us_yoy",
+      "col": "#285c8c",
+      "w": 4.5
+     }
+    ],
+    "xr": [
+     1960,
+     1986
+    ],
+    "yr": [
+     0,
+     16
+    ],
+    "yt": [
+     0,
+     4,
+     8,
+     12,
+     16
+    ],
+    "yf": "pct",
+    "xt": [
+     1960,
+     1965,
+     1970,
+     1975,
+     1980,
+     1985
+    ],
+    "unit": "US prices, change over 12 months",
+    "draw": [
+     0.02,
+     0.85
+    ],
+    "vl": [
+     {
+      "x": 1971.62,
+      "label": [
+       "Aug 1971",
+       "gold window closed,",
+       "wages and prices frozen"
+      ],
+      "at": 0.15,
+      "align": "right",
+      "ly": 0
+     },
+     {
+      "x": 1973.79,
+      "label": [
+       "Oct 1973",
+       "oil embargo"
+      ],
+      "at": 0.42,
+      "ly": 0
+     }
+    ],
+    "dots": [
+     {
+      "x": 1974.96,
+      "label": "Dec 1974: 12.3%",
+      "at": 0.62,
+      "dx": 18,
+      "dy": -20
+     },
+     {
+      "x": 1980.21,
+      "label": "Mar 1980: 14.8%",
+      "at": 0.85,
+      "dx": 18,
+      "dy": -20
+     }
+    ],
+    "head": "The Great Inflation · CPI-U"
+   },
+   "text": "Several things piled up. On the evening of 15 August 1971, President Nixon closed the gold window: foreign central banks could no longer swap their dollars for American gold. The same night he froze wages and prices for ninety days. In October 1973, Arab oil producers imposed an embargo, and crude oil prices quadrupled. US inflation reached 12.3 percent at the end of 1974, and 14.8 percent in March 1980.",
+   "visual": "1971 gold window and price freeze; 1973 embargo; US 12-month inflation with two peaks"
+  },
+  {
+   "id": "b42",
+   "chapter": "7 · The Great Inflation",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "us_yoy",
+      "col": "#285c8c",
+      "w": 4
+     },
+     {
+      "k": "fedfunds",
+      "col": "#b8392c",
+      "w": 4
+     }
+    ],
+    "legend": [
+     {
+      "col": "#285c8c",
+      "txt": "US inflation, 12 months"
+     },
+     {
+      "col": "#b8392c",
+      "txt": "federal funds rate"
+     }
+    ],
+    "legendX": 330,
+    "legendY": 250,
+    "xr": [
+     1970,
+     1991
+    ],
+    "yr": [
+     0,
+     22
+    ],
+    "yt": [
+     0,
+     5,
+     10,
+     15,
+     20
+    ],
+    "yf": "pct",
+    "xt": [
+     1970,
+     1975,
+     1980,
+     1985,
+     1990
+    ],
+    "unit": "percent, monthly",
+    "draw": [
+     0.02,
+     0.6
+    ],
+    "vl": [
+     {
+      "x": 1979.6,
+      "label": [
+       "Aug 1979",
+       "Volcker"
+      ],
+      "at": 0.2,
+      "align": "right"
+     }
+    ],
+    "dots": [
+     {
+      "x": 1981.46,
+      "k": "fedfunds",
+      "label": "June 1981: 19.1% (monthly average)",
+      "at": 0.75,
+      "dx": 18,
+      "dy": -14
+     }
+    ],
+    "head": "The Fed's answer · FRED (CPI-U, effective federal funds rate)"
+   },
+   "text": "The end came from the central bank. Paul Volcker became chair of the Federal Reserve in August 1979. That October, the Fed said it would control the growth of bank reserves and let interest rates go wherever that took them. The federal funds rate hit a record 20 percent in late 1980. In the monthly averages, it peaked at 19.1 percent in June 1981.",
+   "visual": "fed funds and inflation, 1970 to 1990",
+   "say": "The end came from the central bank. Paul Volker became chair of the Federal Reserve in August 1979. That October, the Fed said it would control the growth of bank reserves and let interest rates go wherever that took them. The federal funds rate hit a record 20 percent in late 1980. In the monthly averages, it peaked at 19.1 percent in June 1981."
+  },
+  {
+   "id": "b43",
+   "chapter": "7 · The Great Inflation",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "us_yoy",
+      "col": "#285c8c",
+      "w": 4
+     },
+     {
+      "k": "unrate",
+      "col": "#9a6e12",
+      "w": 4
+     }
+    ],
+    "legend": [
+     {
+      "col": "#285c8c",
+      "txt": "US inflation, 12 months"
+     },
+     {
+      "col": "#9a6e12",
+      "txt": "unemployment rate"
+     }
+    ],
+    "legendY": 360,
+    "xr": [
+     1970,
+     1991
+    ],
+    "yr": [
+     0,
+     16
+    ],
+    "yt": [
+     0,
+     4,
+     8,
+     12,
+     16
+    ],
+    "yf": "pct",
+    "xt": [
+     1970,
+     1975,
+     1980,
+     1985,
+     1990
+    ],
+    "unit": "percent, monthly",
+    "draw": [
+     0.02,
+     0.5
+    ],
+    "dots": [
+     {
+      "x": 1982.87,
+      "k": "unrate",
+      "label": "Nov 1982: 10.8%",
+      "at": 0.45,
+      "col": "#9a6e12",
+      "dx": 18,
+      "dy": -16
+     }
+    ],
+    "tags": [
+     {
+      "text": "1983 to 2020: never above 6.3%",
+      "ax": 1760,
+      "ay": 260,
+      "at": 0.75,
+      "align": "right",
+      "fill": "#285c8c"
+     }
+    ],
+    "head": "The price: two recessions · FRED (CPI-U, unemployment rate)"
+   },
+   "text": "The price was two recessions. US unemployment reached 10.8 percent in November 1982. But inflation came down, and from 1983 to 2020 the US twelve-month rate never went above 6.3 percent.",
+   "visual": "unemployment and inflation, 1970 to 1990"
+  },
+  {
+   "id": "b44",
+   "chapter": "8 · The surge of 2021 to 2023",
+   "scene": "hbars",
+   "p": {
+    "head": "Peak 12-month inflation, 2021 to 2023 · BLS, Eurostat, ONS",
+    "max": 12.5,
+    "x0": 560,
+    "lh": 130,
+    "rows": [
+     {
+      "label": "US",
+      "sub": "Jun 2022",
+      "value": 9.1,
+      "txt": "9.1%",
+      "col": "#285c8c"
+     },
+     {
+      "label": "Euro area",
+      "sub": "Oct 2022",
+      "value": 10.6,
+      "txt": "10.6%",
+      "col": "#9a6e12"
+     },
+     {
+      "label": "UK",
+      "sub": "Oct 2022",
+      "value": 11.1,
+      "txt": "11.1%",
+      "col": "#1f6a48"
+     }
+    ],
+    "foot": "UK: the ONS estimates it was last this high in 1981"
+   },
+   "text": "Then 2021. Prices across rich countries rose faster than they had in decades. In December 2021, US inflation passed 7 percent for the first time since 1982. It peaked at 9.1 percent in June 2022. In the euro area it reached 10.6 percent in October 2022. In the UK, 11.1 percent the same month, and the Office for National Statistics estimates it was last that high in 1981.",
+   "visual": "three peaks"
+  },
+  {
+   "id": "b45",
+   "chapter": "8 · The surge of 2021 to 2023",
+   "scene": "hbars",
+   "p": {
+    "head": "US prices over three years · CPI-U, December to December",
+    "max": 20,
+    "x0": 700,
+    "lh": 150,
+    "rows": [
+     {
+      "label": "Dec 2016 to Dec 2019",
+      "sub": "before the pandemic",
+      "value": 6.4,
+      "txt": "+6.4%",
+      "col": "#1f6a48"
+     },
+     {
+      "label": "Dec 2020 to Dec 2023",
+      "value": 17.8,
+      "txt": "+17.8%",
+      "col": "#b8392c"
+     }
+    ]
+   },
+   "text": "Put it in levels. In the three years from December 2020 to December 2023, US prices rose 17.8 percent. In the three years before the pandemic, they had risen 6.4 percent.",
+   "visual": "two bars, +6.4% and +17.8%"
+  },
+  {
+   "id": "b46",
+   "chapter": "8 · The surge of 2021 to 2023",
+   "scene": "card",
+   "p": {
+    "label": "Bank of England explainer · paraphrased",
+    "big": [
+     "Two shocks"
+    ],
+    "lines": [
+     "1. The coronavirus pandemic",
+     "2. Russia's invasion of Ukraine:",
+     "    a large impact on energy and food prices",
+     "Still argued: how much extra demand added"
+    ],
+    "hot": 3,
+    "step": 1.6,
+    "ly": 280,
+    "foot": "bankofengland.co.uk/explainers · economists' debate: Brookings"
+   },
+   "text": "The Bank of England names two shocks: the coronavirus pandemic, then Russia's invasion of Ukraine, which had a large impact on energy and food prices. Economists still argue about how much extra demand, helped by government support during the pandemic, added on top.",
+   "visual": "Bank of England explainer, paraphrased"
+  },
+  {
+   "id": "b47",
+   "chapter": "8 · The surge of 2021 to 2023",
+   "scene": "lines",
+   "p": {
+    "charts": [
+     {
+      "series": [
+       {
+        "k": "us_yoy",
+        "col": "#285c8c",
+        "w": 4
+       },
+       {
+        "k": "fedfunds",
+        "col": "#b8392c",
+        "w": 4
+       }
+      ],
+      "legend": [
+       {
+        "col": "#285c8c",
+        "txt": "US inflation, 12 months"
+       },
+       {
+        "col": "#b8392c",
+        "txt": "federal funds rate"
+       }
+      ],
+      "xr": [
+       2019,
+       2027
+      ],
+      "yr": [
+       0,
+       10
+      ],
+      "yt": [
+       0,
+       5,
+       10
+      ],
+      "yf": "pct",
+      "xt": [
+       2019,
+       2021,
+       2023,
+       2025,
+       2027
+      ],
+      "unit": "percent",
+      "draw": [
+       0.02,
+       0.4
+      ],
+      "box": [
+       110,
+       115,
+       1700,
+       440
+      ],
+      "head": "Rates up, inflation down · FRED"
+     },
+     {
+      "series": [
+       {
+        "k": "us_level",
+        "col": "#1f6a48",
+        "w": 5
+       }
+      ],
+      "xr": [
+       2019,
+       2027
+      ],
+      "yr": [
+       240,
+       350
+      ],
+      "yt": [
+       250,
+       300,
+       350
+      ],
+      "xt": [
+       2019,
+       2021,
+       2023,
+       2025,
+       2027
+      ],
+      "unit": "US price level, CPI-U index",
+      "draw": [
+       0.4,
+       0.8
+      ],
+      "box": [
+       110,
+       610,
+       1700,
+       440
+      ],
+      "dots": [
+       {
+        "x": 2020.96,
+        "label": "Dec 2020",
+        "at": 0.55,
+        "dx": 0,
+        "dy": -24,
+        "align": "center",
+        "col": "#1f6a48"
+       },
+       {
+        "x": 2026.79,
+        "label": "Oct 2026: +29.6% on Dec 2020",
+        "at": 0.85,
+        "dx": -18,
+        "dy": -26,
+        "align": "right"
+       }
+      ],
+      "head": "...but prices did not come down"
+     }
+    ]
+   },
+   "text": "Central banks responded as Volcker had, more gently. The Federal Reserve's target range went from near zero in March 2022 to between 5.25 and 5.5 percent by July 2023. Inflation came down. But prices did not. By October 2026, US prices were 29.6 percent above their level in December 2020. A slower rise is not a fall.",
+   "visual": "fed funds and inflation 2019 to 2026; a second panel shows the price level still climbing",
+   "say": "Central banks responded as Volker had, more gently. The Federal Reserve's target range went from near zero in March 2022 to between 5.25 and 5.5 percent by July 2023. Inflation came down. But prices did not. By October 2026, US prices were 29.6 percent above their level in December 2020. A slower rise is not a fall."
+  },
+  {
+   "id": "b48",
+   "chapter": "9 · The patterns",
+   "scene": "bullets",
+   "p": {
+    "head": "Five patterns, from Rome to 2022",
+    "px": 44,
+    "items": [
+     "A government that needs money, usually for war",
+     "More money, or fewer goods",
+     "Price controls treat the symptom",
+     "It ends when people trust the money again",
+     "A little inflation, all the time, is new"
+    ]
+   },
+   "text": "So, the five patterns, from Rome to 2022.",
+   "visual": "the five slots fill in"
+  },
+  {
+   "id": "b49",
+   "chapter": "9 · The patterns",
+   "scene": "hbars",
+   "p": {
+    "head": "Worst years since 1900 · US December to December; UK annual · red: world-war and post-war years",
+    "max": 27,
+    "x0": 440,
+    "lh": 68,
+    "lpx": 32,
+    "vpx": 34,
+    "step": 0.06,
+    "rows": [
+     {
+      "label": "US 1918",
+      "value": 20.4,
+      "txt": "20.4%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "US 1946",
+      "value": 18.1,
+      "txt": "18.1%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "US 1917",
+      "value": 18.1,
+      "txt": "18.1%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "US 1919",
+      "value": 14.5,
+      "txt": "14.5%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "UK 1917",
+      "value": 25.2,
+      "txt": "25.2%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "UK 1975",
+      "value": 22.7,
+      "txt": "22.7%",
+      "col": "#8d927f"
+     },
+     {
+      "label": "UK 1918",
+      "value": 22.0,
+      "txt": "22.0%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "UK 1916",
+      "value": 18.1,
+      "txt": "18.1%",
+      "col": "#b8392c"
+     },
+     {
+      "label": "UK 1940",
+      "value": 16.8,
+      "txt": "16.8%",
+      "col": "#b8392c"
+     }
+    ]
+   },
+   "text": "One. The trigger is usually a government that needs money, and the most common reason is war. Rome paid its way in thinner coin. Britain stopped paying out gold in 1797, at war with France. The Yuan printed for war. In the US record, the four worst years are 1917, 1918, 1919 and 1946. In Britain since 1900, four of the five worst years came in the two world wars.",
+   "visual": "worst years, US and UK, war years marked",
+   "say": "One. The trigger is usually a government that needs money, and the most common reason is war. Rome paid its way in thinner coin. Britain stopped paying out gold in 1797, at war with France. The Yoo-ahn printed for war. In the US record, the four worst years are 1917, 1918, 1919 and 1946. In Britain since 1900, four of the five worst years came in the two world wars."
+  },
+  {
+   "id": "b50",
+   "chapter": "9 · The patterns",
+   "scene": "diagram",
+   "p": {
+    "a": "More money",
+    "b": "Fewer goods",
+    "c": "Prices rise",
+    "ex": [
+     [
+      "a",
+      "Potosí silver · the presses of 1923 and 1946"
+     ],
+     [
+      "b",
+      "Zimbabwe's shrinking economy · the oil embargo"
+     ]
+    ]
+   },
+   "text": "Two. Inflation is more money chasing the same goods, or the same money chasing fewer goods, and the worst cases have both. Silver from Potosí was more money. The printing presses of 1923 and 1946 were more money. Zimbabwe's shrinking economy and the oil embargo were fewer goods.",
+   "visual": "two arrows meeting at prices",
+   "say": "Two. Inflation is more money chasing the same goods, or the same money chasing fewer goods, and the worst cases have both. Silver from Potoh-see was more money. The printing presses of 1923 and 1946 were more money. Zimbabwe's shrinking economy and the oil embargo were fewer goods."
+  },
+  {
+   "id": "b51",
+   "chapter": "9 · The patterns",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Price caps:",
+     "AD 301, and 1971"
+    ],
+    "accent": [
+     1
+    ],
+    "sub": [
+     "US inflation: 4.6% in August 1971,",
+     "13.3% by December 1979"
+    ]
+   },
+   "text": "Three. Price controls treat the symptom. Diocletian's edict could not be enforced. Nixon froze prices in August 1971, when US inflation was 4.6 percent. By December 1979 it was 13.3.",
+   "visual": "statement",
+   "say": "Three. Price controls treat the symptom. Dye-oh-klee-shun's edict could not be enforced. Nixon froze prices in August 1971, when US inflation was 4.6 percent. By December 1979 it was 13.3."
+  },
+  {
+   "id": "b52",
+   "chapter": "9 · The patterns",
+   "scene": "bullets",
+   "p": {
+    "head": "How the worst ones ended",
+    "numbered": false,
+    "items": [
+     "A new currency: Germany 1923, Hungary 1946",
+     "Someone else's currency: Zimbabwe 2009",
+     "Painful interest rates: the US, 1979 to 1982"
+    ]
+   },
+   "text": "Four. It ends when people trust the money again, and that is never free. Germany and Hungary started new currencies. Zimbabwe gave up its own and used other countries' money. America got there through Volcker, at the cost of two recessions.",
+   "visual": "three endings",
+   "say": "Four. It ends when people trust the money again, and that is never free. Germany and Hungary started new currencies. Zimbabwe gave up its own and used other countries' money. America got there through Volker, at the cost of two recessions."
+  },
+  {
+   "id": "b53",
+   "chapter": "9 · The patterns",
+   "scene": "line",
+   "p": {
+    "series": [
+     {
+      "k": "uk_level",
+      "col": "#1f6a48",
+      "w": 5
+     }
+    ],
+    "xr": [
+     1200,
+     2065
+    ],
+    "log": true,
+    "yr": [
+     0.05,
+     600
+    ],
+    "yt": [
+     0.1,
+     1,
+     10,
+     100
+    ],
+    "xt": [
+     1200,
+     1300,
+     1400,
+     1500,
+     1600,
+     1700,
+     1800,
+     1900,
+     2000
+    ],
+    "unit": "consumer prices, 2015 = 100, log scale",
+    "head": "England, then the UK · Bank of England and ONS",
+    "draw": [
+     0.02,
+     0.35
+    ],
+    "proj": {
+     "k": "uk_2pct_path",
+     "label": [],
+     "at": 0.55
+    },
+    "tags": [
+     {
+      "text": "dotted: 2% a year from 2025, a target, not a forecast",
+      "ax": 320,
+      "ay": 280,
+      "at": 0.6,
+      "fill": "#b8392c",
+      "px": 34
+     },
+     {
+      "text": "at 2% a year, prices double every 35 years",
+      "ax": 320,
+      "ay": 370,
+      "at": 0.75,
+      "px": 34
+     }
+    ]
+   },
+   "text": "Five. The modern world chose a little inflation, all the time. Before 1900, English prices fell in almost one year out of two. Today, the Federal Reserve and the Bank of England both aim for 2 percent a year. At 2 percent, prices double every 35 years. Whether that is the right goal is a debate for economists. What the history shows is that it is new.",
+   "visual": "the 817-year chart again, with the 2% path drawn forward as a dotted line, labelled 'target, not forecast'"
+  },
+  {
+   "id": "b54",
+   "chapter": "Limits",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "px": 42,
+    "items": [
+     "The long UK series is a splice of many studies",
+     "England first, the whole UK later",
+     "Early centuries rest on few prices",
+     "1225's +50% is probably a harvest, not money"
+    ]
+   },
+   "text": "Now the limits. The long English series is a splice of many historical studies, put together by the Bank of England. It covers England first and the whole UK later. The early centuries rest on far fewer prices than a modern index, so some of the wildest single years, like a 50 percent jump in 1225, probably reflect harvests rather than money.",
+   "visual": "numbered limits"
+  },
+  {
+   "id": "b55",
+   "chapter": "Limits",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "px": 42,
+    "items": [
+     "US CPI-U: urban consumers; October 2025 is missing",
+     "Hyperinflation figures vary: one source used",
+     "Rome: we measured silver, not the cost of living"
+    ]
+   },
+   "text": "The US figures are the official urban consumer price index, which is missing one month, October 2025. Hyperinflation figures vary between sources, so we used one source, Hanke and Krus, throughout. And for Rome we have the coins but very few prices, so we measured the silver, not the cost of living.",
+   "visual": "limits continued",
+   "say": "The US figures are the official urban consumer price index, which is missing one month, October 2025. Hyperinflation figures vary between sources, so we used one source, Hank-ee and Kroos, throughout. And for Rome we have the coins but very few prices, so we measured the silver, not the cost of living."
+  },
+  {
+   "id": "b56",
+   "chapter": "Three things",
+   "scene": "bullets",
+   "p": {
+    "head": "Three things",
+    "px": 44,
+    "items": [
+     "For most of history, prices rose slowly, and often fell",
+     "The big breaks came when governments needed money",
+     "Gentle inflation that is almost never reversed is new"
+    ]
+   },
+   "text": "Three things. For most of recorded history, prices rose slowly, and fell almost as often as they rose. The big breaks came when governments needed money: thinner coins, more paper, and in the worst cases a currency that stopped working at all. And since the twentieth century, gentle inflation that is almost never reversed has become the normal state of money.",
+   "visual": "numbered summary"
+  },
+  {
+   "id": "b57",
+   "chapter": "Three things",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "$100 in 1913",
+     "= about $3,415 in October 2026"
+    ],
+    "accent": [
+     1
+    ],
+    "sub": "US consumer prices (CPI-U), 1913 annual average"
+   },
+   "text": "One last number from the data. Something that cost a hundred dollars in 1913 would have cost about three thousand four hundred dollars in October 2026.",
+   "visual": "$100 in 1913 = about $3,415"
+  },
+  {
+   "id": "b58",
+   "chapter": "",
+   "scene": "endcard",
+   "p": {
+    "lines": [
+     "Next: more of the entire story of money."
+    ]
+   },
+   "text": "Every source is listed in the description. If you want the next one in this series, subscribe.",
+   "visual": "end card with space for YouTube end-screen elements"
+  }
+ ]
+}
